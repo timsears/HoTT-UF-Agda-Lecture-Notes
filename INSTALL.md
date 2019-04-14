@@ -95,7 +95,7 @@ that you have sudo access.
 
 Install `alex`, `happy` and `emacs` using `nix-env`.
 ```bash
-$ nix-env -iA nixpkgs.haskellPackages.alex nixpkgs.haskellPackages.happy emacs
+$ nix-env -iA nixpkgs.haskellPackages.alex nixpkgs.haskellPackages.happy nixpkgs.emacs
 ```
 
 ### Installing Agda 2.6.0
